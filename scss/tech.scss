@@ -1,7 +1,16 @@
+.all-card {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  width: 96%;
+}
+
 .card {
   border: solid 1px $green;
   border-radius: 5px;
-  height: 295px;
+  height: 300px;
   margin: 10px;
   width: 200px;
 }
@@ -9,7 +18,7 @@
 .tech {
   background: $green;
   border-radius: 5px;
-  height: 295px;
+  height: 300px;
   margin: 9px;
   width: 200px;
   h3 {
@@ -18,7 +27,7 @@
     margin-top: 10px;
   }
   p {
-    padding: 25px 16px;
+    padding: 10px 16px;
     text-align: center;
   }
 }
@@ -27,10 +36,19 @@
   font-weight: bold;
 }
 
-.logo-react {
+.common-logo {
   align-items: center;
   display: flex;
   height: $tech-logo-size;
+  margin: auto;
+  padding: 11px;
+}
+
+.express-logo,
+.django-logo {
+  align-items: center;
+  display: flex;
+  height: 50px;
   margin: auto;
   padding: 11px;
 }
