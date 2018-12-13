@@ -1,36 +1,44 @@
 .card {
-  border: solid 1px $green;
-  border-radius: 5px;
-  height: 295px;
-  margin: 10px;
-  width: 200px;
-}
-
-.tech {
-  background: $green;
-  border-radius: 5px;
-  height: 295px;
-  margin: 9px;
-  width: 200px;
-  h3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  p {
-    padding: 25px 16px;
-    text-align: center;
-  }
-}
-
-.bold-font {
-  font-weight: bold;
-}
-
-.logo-react {
   align-items: center;
+  background-color: $green;
+  border-radius: 4px;
   display: flex;
-  height: $tech-logo-size;
-  margin: auto;
-  padding: 11px;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 16px;
+  position: relative;
+  width: 200px;
+
+  &::before {
+    border: 2px solid $green;
+    border-radius: 4px;
+    content: '';
+    height: 100%;
+    left: -16px;
+    position: absolute;
+    top: -16px;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+.card-image {
+  width: 100px;
+}
+
+.card-title {
+  font-size: $text-medium;
+  margin-bottom: $text-medium;
+  margin-top: $text-medium;
+}
+
+.card-release {
+  font-weight: bold;
+  margin-bottom: $text-medium;
+  margin-top: 6px;
+}
+
+.card-info {
+  margin-bottom: $text-medium;
+  text-align: center;
 }
