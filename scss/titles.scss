@@ -7,7 +7,9 @@
   position: relative;
 
   &::before {
-    content: url('assets/images/triangle.svg');
+    background: url(assets/images/triangle.svg) no-repeat;
+    content: '';
+    height: $title-decoration-height;
     left: 0;
     position: absolute;
     width: $title-decoration-width;
