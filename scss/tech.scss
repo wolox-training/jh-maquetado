@@ -1,0 +1,36 @@
+.card {
+  border: solid 1px $green;
+  border-radius: 5px;
+  height: 295px;
+  margin: 10px;
+  width: 200px;
+}
+
+.tech {
+  background: $green;
+  border-radius: 5px;
+  height: 295px;
+  margin: 9px;
+  width: 200px;
+  h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  p {
+    padding: 25px 16px;
+    text-align: center;
+  }
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.logo-react {
+  align-items: center;
+  display: flex;
+  height: $tech-logo-size;
+  margin: auto;
+  padding: 11px;
+}
