@@ -1,15 +1,9 @@
-.main {
-  margin-left: 150px;
-  margin-top: 110px;
-}
-
 .title {
-  font-size: 24px;
+  font-size: $text-big;
   position: relative;
 
   &::before {
-    background-image: url('assets/images/triangle.svg');
-    background-repeat: no-repeat, repeat;
+    background-image: url('assets/images/triangle.svg') no-repeat;
     content: '';
     height: $title-decoration-height;
     left: -51px;
