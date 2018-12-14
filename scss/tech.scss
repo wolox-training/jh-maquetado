@@ -29,6 +29,11 @@
     width: 100%;
     z-index: -1;
   }
+
+  &:hover::before {
+    transform: translate(22px, 22px);
+    transition-duration: 1s;
+  }
 }
 
 .card-image {
