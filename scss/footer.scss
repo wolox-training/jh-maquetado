@@ -20,3 +20,9 @@
   font-size: $text-small;
   padding: $text-medium $text-big;
 }
+
+@media only screen and (max-width: 1024px) {
+  .footer-copyright {
+    align-self: center;
+  }
+}
