@@ -3,7 +3,7 @@
   background-color: $blue;
   display: flex;
   flex-direction: column;
-  height: 180px;
+  height: 190px;
   justify-content: center;
 }
 
@@ -18,4 +18,5 @@
   align-self: flex-end;
   color: $white;
   font-size: $text-small;
+  padding: $text-medium $text-big;
 }
