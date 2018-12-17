@@ -1,4 +1,4 @@
-.all-cards {
+.card-content {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 32px;
@@ -11,8 +11,8 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 42px;
-  margin-right: 42px;
+  margin-bottom: 30px;
+  margin-right: 30px;
   max-width: 100%;
   padding: 16px;
   position: relative;
@@ -26,13 +26,13 @@
     left: -14px;
     position: absolute;
     top: -14px;
+    transition: transform 1s;
     width: 100%;
     z-index: -1;
   }
 
   &:hover::before {
     transform: translate(22px, 22px);
-    transition-duration: 1s;
   }
 }
 
