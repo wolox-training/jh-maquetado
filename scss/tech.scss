@@ -47,7 +47,7 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: $screen) {
   .card-content {
     grid-template-columns: 1fr;
   }

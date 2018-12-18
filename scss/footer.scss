@@ -21,7 +21,7 @@
   padding: $text-medium $text-big;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: $screen) {
   .footer-copyright {
     align-self: center;
   }
