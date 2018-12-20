@@ -37,7 +37,7 @@
 }
 
 .card-release {
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 20px;
   margin-top: 6px;
 }
@@ -48,6 +48,7 @@
 }
 
 @media only screen and (max-width: $screen) {
+
   .card-content {
     grid-template-columns: 1fr;
   }

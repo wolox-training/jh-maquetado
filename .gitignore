@@ -9,3 +9,7 @@
 ## System ##
 .DS_Store
 .vscode/
+
+### Other ###
+/node_modules
+package-lock.json
